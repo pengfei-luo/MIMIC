@@ -26,7 +26,7 @@ Note that the versions of PyTorch, Transformers, and PyTorch Lightning may have 
 
 **Step 2: Download the data**
 
-You may download WikiMEL and RichpediaMEL form https://github.com/seukgcode/MELBench and WikiDiverse from https://github.com/wangxw5/wikiDiverse.
+You may download WikiMEL and RichpediaMEL from https://github.com/seukgcode/MELBench and WikiDiverse from https://github.com/wangxw5/wikiDiverse.
 
 We are still working on cleaning up the off-the-shelf data. Please stay tuned for updates.
 
