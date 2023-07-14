@@ -27,7 +27,7 @@ class LightningForMIMIC(pl.LightningModule):
                 ent_batch[k.replace('ent_', '')] = v
             else:
                 mention_batch[k] = v
-        entity_empty_image_flag = ent_batch.pop('empty_img_flag')
+        entity_empty_image_flag = ent_batch.pop('empty_img_flag')   # not use
 
         # [bs, dim]
         mention_text_embeds, mention_image_embeds, mention_text_seq_tokens, mention_image_patch_tokens = \
@@ -43,8 +43,6 @@ class LightningForMIMIC(pl.LightningModule):
                                                                               mention_image_embeds,
                                                                               mention_image_patch_tokens)
         labels = torch.arange(len(mention_text_embeds)).long().to(mention_text_embeds.device)
-        image_labels = labels.clone()
-        image_labels[entity_empty_image_flag] = -100  # mask the labels without images for correct loss calculation
 
         text_loss = self.loss_fct(text_logits, labels)
         image_loss = self.loss_fct(image_logits, labels)

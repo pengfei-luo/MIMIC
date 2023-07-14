@@ -59,7 +59,7 @@ The code is organized as follows:
 │   ├── wikidiverse.yaml
 │   └── wikimel.yaml
 ├── readme.md
-├── requirments.txt
+├── requirements.txt
 └── run.sh
 ```
 
