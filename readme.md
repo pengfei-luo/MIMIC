@@ -36,7 +36,7 @@ Please modify the configuration files under the "config" directory (including th
 
 **Step 4: Start the training** 
 
-Now you can execute "bash run.sh <gpu_id> --config <dataset>" to begin the training.
+Now you can execute bash run.sh <gpu_id> <dataset_name> to begin the training.
 ```bash
 bash run.sh 0 wikimel       # for WikiMEL
 bash run.sh 0 richpediamel  # for RichpediaMEL
