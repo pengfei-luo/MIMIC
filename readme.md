@@ -1,39 +1,4 @@
-
-<div style="font-size: 24px; font-weight: bold; text-align: center; margin-top: 30px; margin-bottom: 15px;">Multi-Grained Multimodal Interaction Network for Entity Linking</div>
-
-<p style="text-align: center; margin-bottom: 15px;">
-  <span>Pengfei Luo</span>,
-  <span>Tong Xu</span>,
-  <span>Shiwei Wu</span>,
-  <span>Chen Zhu</span>,
-  <span>Linli Xu</span> and 
-  <span>Enhong Chen</span>
-</p>
-
-<div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
-  <div style="display: flex; align-items: center; margin-right: 20px;">
-    <img src="https://icons.iconarchive.com/icons/academicons-team/academicons/72/arxiv-icon.png" style="vertical-align: middle; margin-right: 3px;" width="15" height="15">
-    <p style="margin: 0;"><a href='https://arxiv.org/abs/2307.09721'>arXiv</a></p>
-  </div>
-  <div style="display: flex; align-items: center; margin-right: 20px;">
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAAAAABWESUoAAABEElEQVR4AcySLYyEMBBG6/BZhUFUYJAYTF0NXlScx+x6vMGcHW9wuNX4BC9WTVIxqhqf75rL/pQD/D37XmZGjPqHaH2qMpMpVYVQnQUWK2kPiG7H5SgYwEYQCZZxNObmasEvYvi200VHtccT39B1sFnqZ4gVvJHGASYNRm8ECVKHdTOhNR53a+11BewCgBvanuABuvR96YC4L8JF6ksBQCUwXV4BRH+8FuyDtCiPg/JgBX0Cr/8eQZnW2QCoXOsOvlAp1Ap4mqYZwBRZvHEqJUjNSHiYcE99DXQVJ74RLNtnGfpvy29fUbf/rK9g+eVdr/bkiMVzP0gdMI9twdHntMKpEwp+5PGkJvsZvmQ/+AAAbZMVc3O/hEAAAAAASUVORK5CYII=" style="vertical-align: middle; margin-right: 3px;" width="15" height="15">
-    <p style="margin: 0;">ACM DL</p>
-  </div>
-  <div style="display: flex; align-items: center; margin-right: 20px;">
-    <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/database.svg" style="vertical-align: middle; margin-right: 3px;" width="15" height="15">
-    <p style="margin: 0;"><a href='#dataset'>Dataset</a></p>
-  </div>
-  <div style="display: flex; align-items: center; margin-right: 20px;">
-    <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/clapperboard.svg" style="vertical-align: middle; margin-right: 3px;" width="15" height="15">
-    <p style="margin: 0;">Poster</p>
-  </div>
-  <div style="display: flex; align-items: center;">
-    <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/youtube.svg" style="vertical-align: middle; margin-right: 3px;" width="19" height=19">
-    <p style="margin: 0;"><a href="https://youtu.be/IyP6vfyU1KE">Video</a></p>
-  </div>
-  
-</div>
-
+# Multi-Grained Multimodal Interaction Network for Entity Linking
 
 This repository is the official implementation for the paper titled "Multi-Grained Multimodal Interaction Network for Entity Linking". 
 
