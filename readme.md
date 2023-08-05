@@ -81,18 +81,14 @@ The code is organized as follows:
 
 ## Citation
 If you find this project useful in your research, please cite the following paper:
-```text
-@inproceedings{luo2023mimic,
-  title = {Multi-Grained Multimodal Interaction Network for Entity Linking},
-  author = {Pengfei Luo and
-            Tong Xu and
-            Shiwei Wu and
-            Chen Zhu and 
-            Linli Xu and 
-            Enhong Chen},
-  booktitle = {{KDD}},
-  publisher = {{ACM}},
-  year = {2023}
+```bibtex
+@inproceedings{luo2023multi,
+    author = {Luo, Pengfei and Xu, Tong and Wu, Shiwei and Zhu, Chen and Xu, Linli and Chen, Enhong},
+    title = {Multi-Grained Multimodal Interaction Network for Entity Linking},
+    year = {2023},
+    publisher = {Association for Computing Machinery},
+    booktitle = {Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+    pages = {1583–1594},
 }
 ```
 
