@@ -23,7 +23,8 @@
 
 ## News
 
-- [2023.09.16] The detailed values of the experimental results have been updated. Please refer to [here](#results).
+- [2023.09.17] Updating the method of accessing low-resource data and considerations for reproduce the results.
+- [2023.09.16] The detailed values of the experimental results have been updated. Please refer [here](#results).
 
 
 ## Usage
@@ -52,6 +53,8 @@ Or download our cleaned data [WikiMEL](https://mailustceducn-my.sharepoint.com/:
 ### Step 3: Modify the data path
 
 Please modify the configuration files under the "config" directory (including the YAML files for all 3 datasets) and replace `YOUR_PATH` in the `data` field of each configuration file with the path to your corresponding dataset.
+
+**NOTE: Due to the uploaded training files of RichpediaMEL, mention images are stored in the folder `mention_images`. You need to modify the `mention_img_folder` in the `richpediamel.yaml` config file or rename the `mention_images` folder to `mention_image`.** (Thank [Zhiwei Hu](https://github.com/zhiweihu1103) for bringing up this [issue](https://github.com/pengfei-luo/MIMIC/issues/2))
 
 ### Step 4: Start the training
 
@@ -85,6 +88,7 @@ The code is organized as follows:
 ## Results
 
 ### Main Result
+<details>
 <table>
     <tr>
         <td>Model</td>
@@ -327,11 +331,16 @@ The code is organized as follows:
         <td>227.08</td>
     </tr>
 </table>
+</details>
 
 
 ### Low-resource Setting Result
 
+To access low-resource training data, please refer [here](https://github.com/pengfei-luo/MIMIC/issues/2#issuecomment-1712839806).
+
 **10% RichpediaMEL**
+
+<details>
 
 | **Model** | **H@1** | **H@3** | **H@5** | **H@10** | **MRR** |
 |-----------|---------|---------|---------|----------|---------|
@@ -344,9 +353,12 @@ The code is organized as follows:
 | CLIP      | 62.66   | 79.14   | 85.06   | 90.68    | 72.51   |
 | ALBEF     | 63.19   | 79.31   | 84.25   | 89.42    | 72.51   |
 | MIMIC     | 64.49   | 82.03   | 87.59   | 92.45    | 74.62   |
+</details>
 
+---
 
 **20% RichpediaMEL**
+<details>
 
 | **Model** | **H@1** | **H@3** | **H@5** | **H@10** | **MRR** |
 |-----------|---------|---------|---------|----------|---------|
@@ -359,9 +371,12 @@ The code is organized as follows:
 | CLIP      | 64.32   | 79.59   | 85.54   | 90.96    | 73.72   |
 | ALBEF     | 64.21   | 79.47   | 85.32   | 89.92    | 73.02   |
 | MIMIC     | 75.60   | 88.63   | 91.72   | 94.67    | 82.73   |
+</details>
 
+---
 
 **10% WikiDiverse**
+<details>
 
 | **Model** | **H@1** | **H@3** | **H@5** | **H@10** | **MRR** |
 |-----------|---------|---------|---------|----------|---------|
@@ -374,8 +389,12 @@ The code is organized as follows:
 | ALBEF     | 51.83   | 69.20   | 74.64   | 81.57    | 62.26   |
 | GHMFC     | 48.08   | 66.31   | 74.25   | 81.91    | 59.56   |
 | MIMIC     | 60.54   | 76.18   | 81.33   | 86.14    | 69.70   |
+</details>
+
+---
 
 **20% WikiDiverse**
+<details>
 
 | **Model** | **H@1** | **H@3** | **H@5** | **H@10** | **MRR** |
 |-----------|---------|---------|---------|----------|---------|
@@ -388,8 +407,9 @@ The code is organized as follows:
 | ALBEF     | 56.40   | 73.87   | 78.97   | 85.08    | 66.56   |
 | GHMFC     | 51.73   | 71.85   | 78.54   | 84.50    | 63.46   |
 | MIMIC     | 61.01   | 77.67   | 83.35   | 88.88    | 70.52   |
+</details>
 
-
+---
 
 
 ## Citation
